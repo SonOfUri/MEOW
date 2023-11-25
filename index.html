@@ -74,7 +74,7 @@
     <header>
         <div class="container">
             <a href="/" class="header__logo">
-                <img src="/defaults/logo.png" alt="" style="width: 150px;">
+                <img src="/defaults/banner.png" alt="" style="width: 200px;">
             </a>
             <div class="mobile-btn">
                 <svg class="default" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
@@ -110,15 +110,23 @@
             </div>
         </div>
     </header>
-    <section class="intro">
-        <div class="container">
-            <style>
+                <style>
                 @media screen and (max-width: 1070px) {
                     .u-class-1 {
                         opacity: 0.1;
+                        /* height: 100px; */
+                    }
+
+                    .xyz > img{
+                        height: 600px;
+                        width: 200px;
+                        margin-top: 300px;
+
                     }
                 }
             </style>
+    <section class="intro">
+        <div class="container xyz">
             <img src="/defaults/07.png" alt="" class="picture u-class-1">
             <h2 class="wow animate__bounceIn">
                 Welcome to
