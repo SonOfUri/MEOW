@@ -197,17 +197,19 @@ section.intro {
 
 section.intro img.picture {
     max-width: 813px;
-    width: 100%;
+    width: 40%;
     position: absolute;
     right: -50px;
     pointer-events: none;
-    top: -324px;
+    bottom: -124px;
     z-index: -1
 }
 
 @media screen and (max-width: 500px) {
     section.intro img.picture {
-        right:unset
+        right:unset;
+        width: 100%;
+
     }
 }
 
